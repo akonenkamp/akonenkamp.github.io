@@ -1,0 +1,16 @@
+
+/* home page about me styles  */
+.home-section {
+    margin : 100px;
+    background-color: white;
+    padding: 25px;
+}
+
+html {
+    background-color : gray;
+}
+
+.abme {
+    color : #008080;
+    font-weight: strong;
+}
