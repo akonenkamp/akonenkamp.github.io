@@ -4,6 +4,9 @@
     margin : 100px;
     background-color: white;
     padding: 25px;
+    margin-bottom: 400px;
+
+
 }
 
 html {
@@ -20,6 +23,7 @@ header {
     background-color: white;
     position: fixed;
     top: 0;
+    margin-bottom: 60px;
 }
 
 footer {
@@ -28,4 +32,9 @@ footer {
     position: fixed;
     bottom: 0;
 }
-t 
+
+nav {
+    float : right;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
