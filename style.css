@@ -4,13 +4,16 @@
     margin : 100px;
     background-color: white;
     padding: 25px;
-    margin-bottom: 400px;
-
+    margin-top:300px;
+    margin-bottom: 440px;
+    position: fixed;
+    font-size : 10px;
 
 }
 
 html {
     background-color : lightgrey;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .abme {
