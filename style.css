@@ -1,15 +1,25 @@
 
 /* home page about me styles  */
-.home-section {
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: '#777';
+    background: '#777';
+    width: '960px';
+    font-size: '18px';
+
+}
+
+ .content-section {
+    clear : both;
     margin : 100px;
     background-color: white;
     padding: 25px;
-    margin-top:300px;
+    margin-top:150px;
     margin-bottom: 440px;
     position: fixed;
     font-size : 10px;
 
-}
+} 
 
 html {
     background-color : lightgrey;
@@ -21,13 +31,6 @@ html {
     font-weight: strong;
 }
 
-header {
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    margin-bottom: 60px;
-}
 
 footer {
     background-color: gray;
@@ -36,8 +39,56 @@ footer {
     bottom: 0;
 }
 
+
+header {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;  
+}
+.name {
+    font-size : 24px;
+    padding-left : 24px;
+    padding-top: 22px;
+    background-color: teal;
+    width: 210px;
+    height :110px;
+    margin-left: 100px;
+  
+}
+
 nav {
     float : right;
-    padding-right: 25px;
-    padding-bottom: 25px;
+    padding-top: -15px;
+}
+
+
+
+
+/* this is for the contact page */
+ .message-box { 
+    width : 300px;
+    height : 100px; 
+    } 
+
+.contact-section {
+    margin : 100px;
+    background-color: white;
+    padding: 25px;
+    margin-top:300px;
+    margin-bottom: 440px;
+    position: fixed;
+    font-size : 10px;
+}
+
+/*portfolio section */
+
+.portfolio-section {
+        margin : 100px;
+    background-color: white;
+    padding: 25px;
+    margin-top:300px;
+    margin-bottom: 440px;
+    position: fixed;
+    font-size : 10px;
+
 }
